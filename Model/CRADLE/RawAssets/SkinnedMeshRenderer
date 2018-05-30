@@ -1,0 +1,80 @@
+PPtr<GameObject> m_GameObject
+	int m_FileID = 0
+	SInt64 m_PathID = 4840764965528211735
+bool m_Enabled = True
+UInt8 m_CastShadows = 0
+UInt8 m_ReceiveShadows = 0
+UInt8 m_MotionVectors = 1
+UInt8 m_LightProbeUsage = 1
+UInt8 m_ReflectionProbeUsage = 1
+UInt16 m_LightmapIndex = 65535
+UInt16 m_LightmapIndexDynamic = 65535
+Vector4f m_LightmapTilingOffset
+	float x = 1
+	float y = 1
+	float z = 0
+	float w = 0
+Vector4f m_LightmapTilingOffsetDynamic
+	float x = 1
+	float y = 1
+	float z = 0
+	float w = 0
+vector m_Materials
+	Array Array
+	int size = 2
+		[0]
+		PPtr<Material> data
+			int m_FileID = 0
+			SInt64 m_PathID = -6897114210461624205
+		[1]
+		PPtr<Material> data
+			int m_FileID = 0
+			SInt64 m_PathID = -1772512284004949952
+StaticBatchInfo m_StaticBatchInfo
+	UInt16 firstSubMesh = 0
+	UInt16 subMeshCount = 0
+PPtr<Transform> m_StaticBatchRoot
+	int m_FileID = 0
+	SInt64 m_PathID = 0
+PPtr<Transform> m_ProbeAnchor
+	int m_FileID = 0
+	SInt64 m_PathID = 0
+PPtr<GameObject> m_LightProbeVolumeOverride
+	int m_FileID = 0
+	SInt64 m_PathID = 0
+int m_SortingLayerID = 0
+SInt16 m_SortingLayer = 0
+SInt16 m_SortingOrder = 0
+int m_Quality = 0
+bool m_UpdateWhenOffscreen = False
+bool m_SkinnedMotionVectors = True
+PPtr<Mesh> m_Mesh
+	int m_FileID = 0
+	SInt64 m_PathID = -5251840995131158208
+vector m_Bones
+	Array Array
+	int size = 2
+		[0]
+		PPtr<Transform> data
+			int m_FileID = 0
+			SInt64 m_PathID = -5505308298804210522
+		[1]
+		PPtr<Transform> data
+			int m_FileID = 0
+			SInt64 m_PathID = 977069554772336851
+vector m_BlendShapeWeights
+	Array Array
+	int size = 0
+PPtr<Transform> m_RootBone
+	int m_FileID = 0
+	SInt64 m_PathID = -5505308298804210522
+AABB m_AABB
+	Vector3f m_Center
+		float x = -0.0287524
+		float y = 0.0003517903
+		float z = 0.0003712922
+	Vector3f m_Extent
+		float x = 0.02922878
+		float y = 0.06002856
+		float z = 0.05980327
+bool m_DirtyAABB = False
