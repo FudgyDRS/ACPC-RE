@@ -1,0 +1,58 @@
+======================================================================
+AssetBundle #216303
+	0	-6141875255059783494	_Ramp generic
+	1	4245715802442161425	m_sdw_square generic shader
+	2	7283111105430170738	m_fance_int #216314
+	3	-5059511175660570174	Transform #216300
+	4	-1738367423565698211	MeshFilter #216301
+	5	-845708884941650335	fence_28_int #216302
+	6	1450050307041176588	sdw_square #216304
+	7	1808786836392437459	shadow_base generic 
+	8	1998611490764889078	MeshFilter #216306
+	9	3493006242196714689	sdw_cmn_square	generic
+	10	3672932309608449553	Transform #216308
+	11	4055035887756192178	fence_28_int_01
+	12	4055148433019049942	MeshRanderer #216310
+	13	4112442350436102493	fence_28_int_01
+	14	4976525286860950834	m_sdw_square #216312
+	15	7668690168003308392	MeshRenderer #216313
+	16	7780087330762373276	m_fance_int #216314
+	17	9218999471677182749	shadow #216224
+fence_28_int_01.prefab	4055035887756192178
+------------------------------------------------------------------------
+fence_28_int_01	component	3672932309608449553	10
+fence_28_int_01	component	1998611490764889078	8
+fence_28_int_01	component	4055148433019049942	12
+
+Transform308	m_GameObject	4055035887756192178	11
+Transform	m_Children	-5059511175660570174	3
+Transform	m_Father	0
+
+MeshFilter306	m_GameObject	4055035887756192178	11
+MeshFilter	m_Mesh	-845708884941650335	5
+
+MeshRenderer310	m_GameObject	4055035887756192178	11
+MeshRenderer	m_Materials	7780087330762373276	16
+
+m_fance_int314	m_Shader	7283111105430170738	2
+m_fance_int	_MainTex	m_Texture	4112442350436102493	13
+m_fance_int	_Ramp	m_Texture	-6141875255059783494	0
+------------------------------------------------------------------------
+sdw_square304	component	-5059511175660570174	3
+sdw_square	component	-1738367423565698211	4
+sdw_square	component	7668690168003308392
+
+Transform300	m_GameObject	1450050307041176588	6
+Transform	m_Children	0
+Transform	m_Father	3672932309608449553	10
+
+MeshFilter301	m_GameObject	1450050307041176588	6
+MeshFilter	m_Mesh	9218999471677182749	17
+
+MeshRenderer313	m_GameObject	1450050307041176588	6
+MeshRenderer	m_Materials	4976525286860950834
+
+m_sdw_square312	m_Shader	4245715802442161425	1
+m_sdw_square	_MainTex	m_Texture	3493006242196714689	9
+m_sdw_square	_MaskTex	m_Texture	1808786836392437459	7
+------------------------------------------------------------------------
