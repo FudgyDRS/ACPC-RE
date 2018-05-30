@@ -1,0 +1,725 @@
+string m_Name = "rmk_bab_cradle"
+unsigned int m_ControllerSize = 1225
+ControllerConstant m_Controller
+	vector m_LayerArray
+		Array Array
+		int size = 1
+			[0]
+			OffsetPtr data
+				LayerConstant data
+					unsigned int m_StateMachineIndex = 0
+					unsigned int m_StateMachineMotionSetIndex = 0
+					HumanPoseMask m_BodyMask
+						unsigned int word0 = 4294967295
+						unsigned int word1 = 4294967295
+						unsigned int word2 = 63
+					OffsetPtr m_SkeletonMask
+						SkeletonMask data
+							vector m_Data
+								Array Array
+								int size = 0
+					unsigned int m_Binding = 756556552
+					int (int&)m_LayerBlendingMode = 0
+					float m_DefaultWeight = 0
+					bool m_IKPass = False
+					bool m_SyncedLayerAffectsTiming = False
+	vector m_StateMachineArray
+		Array Array
+		int size = 1
+			[0]
+			OffsetPtr data
+				StateMachineConstant data
+					vector m_StateConstantArray
+						Array Array
+						int size = 2
+							[0]
+							OffsetPtr data
+								StateConstant data
+									vector m_TransitionConstantArray
+										Array Array
+										int size = 1
+											[0]
+											OffsetPtr data
+												TransitionConstant data
+													vector m_ConditionConstantArray
+														Array Array
+														int size = 1
+															[0]
+															OffsetPtr data
+																ConditionConstant data
+																	unsigned int m_ConditionMode = 1
+																	unsigned int m_EventID = 162933192
+																	float m_EventThreshold = 0
+																	float m_ExitTime = 0
+													unsigned int m_DestinationState = 1
+													unsigned int m_FullPathID = 1557225046
+													unsigned int m_ID = 3100938091
+													unsigned int m_UserID = 0
+													float m_TransitionDuration = 0
+													float m_TransitionOffset = 0
+													float m_ExitTime = 0
+													bool m_HasExitTime = False
+													bool m_HasFixedDuration = True
+													int m_InterruptionSource = 0
+													bool m_OrderedInterruption = True
+													bool m_CanTransitionToSelf = True
+									vector m_BlendTreeConstantIndexArray
+										Array Array
+										int size = 1
+											[0]
+											int data = -1
+									vector m_BlendTreeConstantArray
+										Array Array
+										int size = 0
+									unsigned int m_NameID = 3693393173
+									unsigned int m_PathID = 4116442951
+									unsigned int m_FullPathID = 4116442951
+									unsigned int m_TagID = 0
+									unsigned int m_SpeedParamID = 0
+									unsigned int m_MirrorParamID = 0
+									unsigned int m_CycleOffsetParamID = 0
+									float m_Speed = 1
+									float m_CycleOffset = 0
+									bool m_IKOnFeet = False
+									bool m_WriteDefaultValues = True
+									bool m_Loop = True
+									bool m_Mirror = False
+							[1]
+							OffsetPtr data
+								StateConstant data
+									vector m_TransitionConstantArray
+										Array Array
+										int size = 1
+											[0]
+											OffsetPtr data
+												TransitionConstant data
+													vector m_ConditionConstantArray
+														Array Array
+														int size = 0
+													unsigned int m_DestinationState = 30001
+													unsigned int m_FullPathID = 2336319472
+													unsigned int m_ID = 3451649545
+													unsigned int m_UserID = 0
+													float m_TransitionDuration = 0
+													float m_TransitionOffset = 0
+													float m_ExitTime = 1
+													bool m_HasExitTime = True
+													bool m_HasFixedDuration = True
+													int m_InterruptionSource = 0
+													bool m_OrderedInterruption = True
+													bool m_CanTransitionToSelf = True
+									vector m_BlendTreeConstantIndexArray
+										Array Array
+										int size = 1
+											[0]
+											int data = 0
+									vector m_BlendTreeConstantArray
+										Array Array
+										int size = 1
+											[0]
+											OffsetPtr data
+												BlendTreeConstant data
+													vector m_NodeArray
+														Array Array
+														int size = 1
+															[0]
+															OffsetPtr data
+																BlendTreeNodeConstant data
+																	unsigned int m_BlendType = 0
+																	unsigned int m_BlendEventID = 4294967295
+																	unsigned int m_BlendEventYID = 4294967295
+																	vector m_ChildIndices
+																		Array Array
+																		int size = 0
+																	OffsetPtr m_Blend1dData
+																		Blend1dDataConstant data
+																			vector m_ChildThresholdArray
+																				Array Array
+																				int size = 0
+																	OffsetPtr m_Blend2dData
+																		Blend2dDataConstant data
+																			vector m_ChildPositionArray
+																				Array Array
+																				int size = 0
+																			vector m_ChildMagnitudeArray
+																				Array Array
+																				int size = 0
+																			vector m_ChildPairVectorArray
+																				Array Array
+																				int size = 0
+																			vector m_ChildPairAvgMagInvArray
+																				Array Array
+																				int size = 0
+																			vector m_ChildNeighborListArray
+																				Array Array
+																				int size = 0
+																	OffsetPtr m_BlendDirectData
+																		BlendDirectDataConstant data
+																			vector m_ChildBlendEventIDArray
+																				Array Array
+																				int size = 0
+																			bool m_NormalizedBlendValues = False
+																	unsigned int m_ClipID = 0
+																	float m_Duration = 1
+																	float m_CycleOffset = 0
+																	bool m_Mirror = False
+									unsigned int m_NameID = 3441206884
+									unsigned int m_PathID = 3100951690
+									unsigned int m_FullPathID = 3100951690
+									unsigned int m_TagID = 0
+									unsigned int m_SpeedParamID = 0
+									unsigned int m_MirrorParamID = 0
+									unsigned int m_CycleOffsetParamID = 0
+									float m_Speed = 1
+									float m_CycleOffset = 0
+									bool m_IKOnFeet = False
+									bool m_WriteDefaultValues = True
+									bool m_Loop = False
+									bool m_Mirror = False
+					vector m_AnyStateTransitionConstantArray
+						Array Array
+						int size = 0
+					vector m_SelectorStateConstantArray
+						Array Array
+						int size = 2
+							[0]
+							OffsetPtr data
+								SelectorStateConstant data
+									vector m_TransitionConstantArray
+										Array Array
+										int size = 1
+											[0]
+											OffsetPtr data
+												SelectorTransitionConstant data
+													unsigned int m_Destination = 0
+													vector m_ConditionConstantArray
+														Array Array
+														int size = 0
+									unsigned int m_FullPathID = 756556552
+									bool m_IsEntry = True
+							[1]
+							OffsetPtr data
+								SelectorStateConstant data
+									vector m_TransitionConstantArray
+										Array Array
+										int size = 1
+											[0]
+											OffsetPtr data
+												SelectorTransitionConstant data
+													unsigned int m_Destination = 30000
+													vector m_ConditionConstantArray
+														Array Array
+														int size = 0
+									unsigned int m_FullPathID = 756556552
+									bool m_IsEntry = False
+					unsigned int m_DefaultState = 0
+					unsigned int m_MotionSetCount = 1
+	OffsetPtr m_Values
+		ValueArrayConstant data
+			vector m_ValueArray
+				Array Array
+				int size = 1
+					[0]
+					ValueConstant data
+						unsigned int m_ID = 162933192
+						unsigned int m_Type = 9
+						unsigned int m_Index = 0
+	OffsetPtr m_DefaultValues
+		ValueArray data
+			vector m_PositionValues
+				Array Array
+				int size = 0
+			vector m_QuaternionValues
+				Array Array
+				int size = 0
+			vector m_ScaleValues
+				Array Array
+				int size = 0
+			vector m_FloatValues
+				Array Array
+				int size = 0
+			vector m_IntValues
+				Array Array
+				int size = 0
+			vector m_BoolValues
+				Array Array
+				int size = 1
+					[0]
+					bool data = False
+map m_TOS
+	Array Array
+	int size = 114
+		[0]
+		pair data
+			unsigned int first = 0
+			string second = ""
+		[1]
+		pair data
+			unsigned int first = 44361625
+			string second = "StateMachineWeight"
+		[2]
+		pair data
+			unsigned int first = 162933192
+			string second = "on"
+		[3]
+		pair data
+			unsigned int first = 234666719
+			string second = "LeftFootSpeedQ"
+		[4]
+		pair data
+			unsigned int first = 325535511
+			string second = "QuaternionW"
+		[5]
+		pair data
+			unsigned int first = 344953108
+			string second = "OutC"
+		[6]
+		pair data
+			unsigned int first = 348570661
+			string second = "Result"
+		[7]
+		pair data
+			unsigned int first = 383582131
+			string second = "PositionZ"
+		[8]
+		pair data
+			unsigned int first = 396726374
+			string second = "MinMax"
+		[9]
+		pair data
+			unsigned int first = 450223965
+			string second = "WeightE"
+		[10]
+		pair data
+			unsigned int first = 490557142
+			string second = "PivotWeight"
+		[11]
+		pair data
+			unsigned int first = 498604868
+			string second = "WeightA"
+		[12]
+		pair data
+			unsigned int first = 543223747
+			string second = "S"
+		[13]
+		pair data
+			unsigned int first = 655174618
+			string second = "W"
+		[14]
+		pair data
+			unsigned int first = 732475199
+			string second = "MinMin"
+		[15]
+		pair data
+			unsigned int first = 756556552
+			string second = "Base Layer"
+		[16]
+		pair data
+			unsigned int first = 757072631
+			string second = "ScaleY"
+		[17]
+		pair data
+			unsigned int first = 849431207
+			string second = "RootStableQ"
+		[18]
+		pair data
+			unsigned int first = 867637884
+			string second = "BlendWeight"
+		[19]
+		pair data
+			unsigned int first = 904430847
+			string second = "RangeC"
+		[20]
+		pair data
+			unsigned int first = 978464691
+			string second = "Den"
+		[21]
+		pair data
+			unsigned int first = 985782786
+			string second = "RightFootStableT"
+		[22]
+		pair data
+			unsigned int first = 1018903703
+			string second = "XI"
+		[23]
+		pair data
+			unsigned int first = 1037565863
+			string second = "C"
+		[24]
+		pair data
+			unsigned int first = 1059523296
+			string second = "Condition"
+		[25]
+		pair data
+			unsigned int first = 1059864097
+			string second = "RightFoot.WeightT"
+		[26]
+		pair data
+			unsigned int first = 1114481194
+			string second = "SrcPivotX"
+		[27]
+		pair data
+			unsigned int first = 1120648744
+			string second = "RootStableT"
+		[28]
+		pair data
+			unsigned int first = 1123005545
+			string second = "RangeB"
+		[29]
+		pair data
+			unsigned int first = 1181630467
+			string second = "DampTime"
+		[30]
+		pair data
+			unsigned int first = 1216097279
+			string second = "StateSpeed"
+		[31]
+		pair data
+			unsigned int first = 1252732557
+			string second = "RightFootStableQ"
+		[32]
+		pair data
+			unsigned int first = 1255198513
+			string second = "B"
+		[33]
+		pair data
+			unsigned int first = 1274512349
+			string second = "LookAt"
+		[34]
+		pair data
+			unsigned int first = 1347844645
+			string second = "TransitionStartTime"
+		[35]
+		pair data
+			unsigned int first = 1386730468
+			string second = "MaxMax"
+		[36]
+		pair data
+			unsigned int first = 1400905427
+			string second = "RightFootSafeX"
+		[37]
+		pair data
+			unsigned int first = 1505515367
+			string second = "Z"
+		[38]
+		pair data
+			unsigned int first = 1512518241
+			string second = "ScaleX"
+		[39]
+		pair data
+			unsigned int first = 1530291161
+			string second = "LeftFootSafeX"
+		[40]
+		pair data
+			unsigned int first = 1557225046
+			string second = "Base Layer.idle -> Base Layer.rmk_bab_cradle"
+		[41]
+		pair data
+			unsigned int first = 1646138595
+			string second = "NextStateStartTime"
+		[42]
+		pair data
+			unsigned int first = 1665863624
+			string second = "LeftFoot.WeightR"
+		[43]
+		pair data
+			unsigned int first = 1669898626
+			string second = "OutB"
+		[44]
+		pair data
+			unsigned int first = 1802057638
+			string second = "DeltaTime"
+		[45]
+		pair data
+			unsigned int first = 1842540491
+			string second = "WeightD"
+		[46]
+		pair data
+			unsigned int first = 1842756522
+			string second = "QuaternionZ"
+		[47]
+		pair data
+			unsigned int first = 1848006150
+			string second = "SrcRefX"
+		[48]
+		pair data
+			unsigned int first = 1848207915
+			string second = "TransitionTime"
+		[49]
+		pair data
+			unsigned int first = 1856695485
+			string second = "MaxMin"
+		[50]
+		pair data
+			unsigned int first = 2070109066
+			string second = "RefWeight"
+		[51]
+		pair data
+			unsigned int first = 2105523844
+			string second = "GravityWeight"
+		[52]
+		pair data
+			unsigned int first = 2107002448
+			string second = "LeftFootSpeedT"
+		[53]
+		pair data
+			unsigned int first = 2119612208
+			string second = "StateWeight"
+		[54]
+		pair data
+			unsigned int first = 2175216505
+			string second = "Out"
+		[55]
+		pair data
+			unsigned int first = 2211994246
+			string second = "QuaternionX"
+		[56]
+		pair data
+			unsigned int first = 2226211582
+			string second = "WeightB"
+		[57]
+		pair data
+			unsigned int first = 2247184030
+			string second = "RightFootX"
+		[58]
+		pair data
+			unsigned int first = 2274291371
+			string second = "StateTime"
+		[59]
+		pair data
+			unsigned int first = 2317921021
+			string second = "LeftFoot.WeightT"
+		[60]
+		pair data
+			unsigned int first = 2329699786
+			string second = "RootX"
+		[61]
+		pair data
+			unsigned int first = 2330657975
+			string second = "OutD"
+		[62]
+		pair data
+			unsigned int first = 2336319472
+			string second = "Base Layer.rmk_bab_cradle -> Exit"
+		[63]
+		pair data
+			unsigned int first = 2413145609
+			string second = "PositionY"
+		[64]
+		pair data
+			unsigned int first = 2431031675
+			string second = "RootSpeedT"
+		[65]
+		pair data
+			unsigned int first = 2546314616
+			string second = "StateExitTime"
+		[66]
+		pair data
+			unsigned int first = 2570476336
+			string second = "Min"
+		[67]
+		pair data
+			unsigned int first = 2595796845
+			string second = "ComputeSource"
+		[68]
+		pair data
+			unsigned int first = 2638942515
+			string second = "RightFootSpeedT"
+		[69]
+		pair data
+			unsigned int first = 2666578736
+			string second = "LeftFootStableQ"
+		[70]
+		pair data
+			unsigned int first = 2746444292
+			string second = "D"
+		[71]
+		pair data
+			unsigned int first = 2772132969
+			string second = "Max"
+		[72]
+		pair data
+			unsigned int first = 2878083420
+			string second = "RangeD"
+		[73]
+		pair data
+			unsigned int first = 3022607181
+			string second = "ScaleZ"
+		[74]
+		pair data
+			unsigned int first = 3081909835
+			string second = "X"
+		[75]
+		pair data
+			unsigned int first = 3100938091
+			string second = "idle -> rmk_bab_cradle"
+		[76]
+		pair data
+			unsigned int first = 3100951690
+			string second = "Base Layer.rmk_bab_cradle"
+		[77]
+		pair data
+			unsigned int first = 3153109451
+			string second = "Rem"
+		[78]
+		pair data
+			unsigned int first = 3187964512
+			string second = "T"
+		[79]
+		pair data
+			unsigned int first = 3220417461
+			string second = "PlantFeet"
+		[80]
+		pair data
+			unsigned int first = 3233089245
+			string second = "Y"
+		[81]
+		pair data
+			unsigned int first = 3258172340
+			string second = "DynamicCurve"
+		[82]
+		pair data
+			unsigned int first = 3290571803
+			string second = "PreviousValue"
+		[83]
+		pair data
+			unsigned int first = 3395857132
+			string second = "In"
+		[84]
+		pair data
+			unsigned int first = 3441206884
+			string second = "rmk_bab_cradle"
+		[85]
+		pair data
+			unsigned int first = 3448391469
+			string second = "TransitionDuration"
+		[86]
+		pair data
+			unsigned int first = 3451649545
+			string second = "rmk_bab_cradle -> Exit"
+		[87]
+		pair data
+			unsigned int first = 3463352047
+			string second = "Q"
+		[88]
+		pair data
+			unsigned int first = 3495879906
+			string second = "DoTransition"
+		[89]
+		pair data
+			unsigned int first = 3554254475
+			string second = "A"
+		[90]
+		pair data
+			unsigned int first = 3568589458
+			string second = "E"
+		[91]
+		pair data
+			unsigned int first = 3586354289
+			string second = "DstRefX"
+		[92]
+		pair data
+			unsigned int first = 3587742114
+			string second = "XO"
+		[93]
+		pair data
+			unsigned int first = 3595541268
+			string second = "RightFoot.WeightR"
+		[94]
+		pair data
+			unsigned int first = 3597911608
+			string second = "LeftFootProjX"
+		[95]
+		pair data
+			unsigned int first = 3689342419
+			string second = "RangeA"
+		[96]
+		pair data
+			unsigned int first = 3693393173
+			string second = "idle"
+		[97]
+		pair data
+			unsigned int first = 3700105674
+			string second = "RangeE"
+		[98]
+		pair data
+			unsigned int first = 3702945584
+			string second = "Value"
+		[99]
+		pair data
+			unsigned int first = 3737500466
+			string second = "RightFootProjX"
+		[100]
+		pair data
+			unsigned int first = 3767299572
+			string second = "RootSpeedQ"
+		[101]
+		pair data
+			unsigned int first = 3826182542
+			string second = "Num"
+		[102]
+		pair data
+			unsigned int first = 3827248972
+			string second = "DstPivotX"
+		[103]
+		pair data
+			unsigned int first = 3891257343
+			string second = "LeftFootX"
+		[104]
+		pair data
+			unsigned int first = 3978421692
+			string second = "RightFootSpeedQ"
+		[105]
+		pair data
+			unsigned int first = 4003084223
+			string second = "LeftFootStableT"
+		[106]
+		pair data
+			unsigned int first = 4056358516
+			string second = "TransitionOffset"
+		[107]
+		pair data
+			unsigned int first = 4088822376
+			string second = "WeightC"
+		[108]
+		pair data
+			unsigned int first = 4108282384
+			string second = "QuaternionY"
+		[109]
+		pair data
+			unsigned int first = 4116442951
+			string second = "Base Layer.idle"
+		[110]
+		pair data
+			unsigned int first = 4117775177
+			string second = "StabilizeFeet"
+		[111]
+		pair data
+			unsigned int first = 4174552735
+			string second = "PositionX"
+		[112]
+		pair data
+			unsigned int first = 4202819640
+			string second = "OutA"
+		[113]
+		pair data
+			unsigned int first = 4260115489
+			string second = "OutE"
+vector m_AnimationClips
+	Array Array
+	int size = 1
+		[0]
+		PPtr<AnimationClip> data
+			int m_FileID = 0
+			SInt64 m_PathID = 6661515304180725380
+StateMachineBehaviourVectorDescription m_StateMachineBehaviourVectorDescription
+	map m_StateMachineBehaviourRanges
+		Array Array
+		int size = 0
+	vector m_StateMachineBehaviourIndices
+		Array Array
+		int size = 0
+vector m_StateMachineBehaviours
+	Array Array
+	int size = 0
+bool m_MultiThreadedStateMachine = True
