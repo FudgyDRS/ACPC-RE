@@ -1,0 +1,22 @@
+vector m_Component
+	Array Array
+	int size = 3
+		[0]
+		ComponentPair data
+			PPtr<Component> component
+				int m_FileID = 0
+				SInt64 m_PathID = 6802264803670710264
+		[1]
+		ComponentPair data
+			PPtr<Component> component
+				int m_FileID = 0
+				SInt64 m_PathID = 8839877326701674982
+		[2]
+		ComponentPair data
+			PPtr<Component> component
+				int m_FileID = 0
+				SInt64 m_PathID = 8549010686603368087
+unsigned int m_Layer = 0
+string m_Name = "sdw_square"
+UInt16 m_Tag = 0
+bool m_IsActive = True
