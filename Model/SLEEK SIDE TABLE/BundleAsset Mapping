@@ -1,0 +1,76 @@
+======================================================================
+AssetBundle #216505
+	0	-6141875255059783494	_Ramp generic?
+	1	3239979765609107497	_MainMaskTex m_Shader generic?
+	2	4245715802442161425	m_Shader circle sdw generic?
+	3	6298142102601464772	m_Shader generic2?
+	4	7283111105430170738	m_Shader generic1?
+	5	-7841891340793036246	MeshFilter #216500
+	6	-7757822258152596010	bs_j #216501
+	7	-6433436073812851118	shadow_base #216508
+	8	-1609016282569305527	ftr_spe01 #216504
+	9	-695075929855750603	env_pip2 #216503
+	10	1274247879602019753	MeshRenderer #216506
+	11	1679542841081548328	m_b #216517
+	12	3493006242196714689	sdw_cmn_circle #216502 *generic
+	13	3690186668497121892	MeshRenderer #216509
+	14	3819920601121127149	Transform #216510
+	15	4736861474345534910	Transform #216514
+	16	4808138652277644836	rmk_pip_tables
+	17	5577619092738906307	base_00 #216513
+	18	5578849775782847183	Transform #216514
+	19	6087873326012146138	shadow #216515
+	20	6316714225316828193	m_sdw_circle #216516
+	21	6743248283044990819	gl_m #216507
+	22	8128733981142134743	MeshFilter #216518
+	23	8593395677286791412	df_m #216519
+rmk_pip_tables.prefab	4808138652277644836	16
+------------------------------------------------------------------------
+rmk_pip_tables	component	5578849775782847183	18
+rmk_pip_tables	component	8128733981142134743	22
+rmk_pip_tables	component	3690186668497121892	13
+
+Transform514	m_GameObject	4808138652277644836	16
+Transform	m_Children	3819920601121127149	14
+Transform	m_Father	0
+
+MeshFilter518	m_GameObject	4808138652277644836	16
+MeshFilter	m_Mesh	-7757822258152596010	6
+
+MeshRenderer509	m_GameObject	4808138652277644836	16
+MeshRenderer	m_Materials	6743248283044990819	21
+MeshRenderer	m_Materials	1679542841081548328	11
+MeshRenderer	m_Materials	8593395677286791412	23
+
+gl_m507	m_Shader	3239979765609107497	1
+gl_m	_EnvTex	m_Texture	-695075929855750603	9
+gl_m	_MainMaskTex	0
+gl_m	_MainTex	0
+
+m_b517	m_Shader	7283111105430170738	4
+m_b	_MainTex	m_Texture	5577619092738906307	17
+m_b	_Ramp	m_Texture	-6141875255059783494	0
+
+df_m519	m_Shader	6298142102601464772	3
+df_m	_EnvTex	m_Texture	-1609016282569305527	8
+df_m	_MainTex	m_Texture	5577619092738906307	17
+df_m	_Ramp	m_Texture	-6141875255059783494	0
+------------------------------------------------------------------------
+sdw_circle511	component	3819920601121127149	14
+sdw_circle	component	-7841891340793036246	5
+sdw_circle	component	1274247879602019753	10
+
+Transform510	m_GameObject	4736861474345534910	15
+Transform	m_Children	0
+Transform	m_Father	5578849775782847183	18
+
+MeshFilter500	m_GameObject	4736861474345534910	15
+MeshFilter	m_Mesh	6087873326012146138	19
+
+MeshRenderer506	m_GameObject	4736861474345534910	15
+MeshRenderer	m_Materials	6316714225316828193	20
+
+m_sdw_circle516	m_Shader	4245715802442161425	2
+m_sdw_circle	_MainTex	m_Texture	3493006242196714689	12
+m_sdw_circle	_MaskTex	m_Texture	-6433436073812851118	7
+------------------------------------------------------------------------
