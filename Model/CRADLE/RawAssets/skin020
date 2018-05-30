@@ -1,0 +1,17 @@
+vector m_Component
+	Array Array
+	int size = 2
+		[0]
+		ComponentPair data
+			PPtr<Component> component
+				int m_FileID = 0
+				SInt64 m_PathID = 8536926476338252978
+		[1]
+		ComponentPair data
+			PPtr<Component> component
+				int m_FileID = 0
+				SInt64 m_PathID = -84511492304932643
+unsigned int m_Layer = 0
+string m_Name = "skin"
+UInt16 m_Tag = 0
+bool m_IsActive = True
