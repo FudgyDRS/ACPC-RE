@@ -1,0 +1,16 @@
+PPtr<GameObject> m_GameObject
+	int m_FileID = 0
+	SInt64 m_PathID = -7743994600645172292
+UInt8 m_Enabled = 1
+PPtr<Avatar> m_Avatar
+	int m_FileID = 0
+	SInt64 m_PathID = -6239860336234009279
+PPtr<RuntimeAnimatorController> m_Controller
+	int m_FileID = 0
+	SInt64 m_PathID = 3521742096117660116
+int m_CullingMode = 0
+int m_UpdateMode = 0
+bool m_ApplyRootMotion = False
+bool m_LinearVelocityBlending = False
+bool m_HasTransformHierarchy = True
+bool m_AllowConstantClipSamplingOptimization = True
