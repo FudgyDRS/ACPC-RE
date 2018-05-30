@@ -1,0 +1,154 @@
+string m_Name = "upd001/cmps/model/item/furniture/rmk_bab_cradle.unity3d"
+vector m_PreloadTable
+	Array Array
+	int size = 31
+		[0]
+		PPtr<Object> data
+			int m_FileID = 0
+			SInt64 m_PathID = -8449830673373226111
+		[1]
+		PPtr<Object> data
+			int m_FileID = 0
+			SInt64 m_PathID = -8168304298995685123
+		[2]
+		PPtr<Object> data
+			int m_FileID = 0
+			SInt64 m_PathID = -7743994600645172292
+		[3]
+		PPtr<Object> data
+			int m_FileID = 0
+			SInt64 m_PathID = -6897114210461624205
+		[4]
+		PPtr<Object> data
+			int m_FileID = 0
+			SInt64 m_PathID = -6239860336234009279
+		[5]
+		PPtr<Object> data
+			int m_FileID = 0
+			SInt64 m_PathID = -5505308298804210522
+		[6]
+		PPtr<Object> data
+			int m_FileID = 0
+			SInt64 m_PathID = -5251840995131158208
+		[7]
+		PPtr<Object> data
+			int m_FileID = 0
+			SInt64 m_PathID = -3668858848893951424
+		[8]
+		PPtr<Object> data
+			int m_FileID = 0
+			SInt64 m_PathID = -3460793221840550924
+		[9]
+		PPtr<Object> data
+			int m_FileID = 0
+			SInt64 m_PathID = -2499827091387855220
+		[10]
+		PPtr<Object> data
+			int m_FileID = 0
+			SInt64 m_PathID = -2339761848369448296
+		[11]
+		PPtr<Object> data
+			int m_FileID = 0
+			SInt64 m_PathID = -1772512284004949952
+		[12]
+		PPtr<Object> data
+			int m_FileID = 0
+			SInt64 m_PathID = -84511492304932643
+		[13]
+		PPtr<Object> data
+			int m_FileID = 0
+			SInt64 m_PathID = 977069554772336851
+		[14]
+		PPtr<Object> data
+			int m_FileID = 0
+			SInt64 m_PathID = 1808786836392437459
+		[15]
+		PPtr<Object> data
+			int m_FileID = 0
+			SInt64 m_PathID = 2100850829987833353
+		[16]
+		PPtr<Object> data
+			int m_FileID = 0
+			SInt64 m_PathID = 2391181233898620335
+		[17]
+		PPtr<Object> data
+			int m_FileID = 0
+			SInt64 m_PathID = 3493006242196714689
+		[18]
+		PPtr<Object> data
+			int m_FileID = 0
+			SInt64 m_PathID = 3521742096117660116
+		[19]
+		PPtr<Object> data
+			int m_FileID = 0
+			SInt64 m_PathID = 4840764965528211735
+		[20]
+		PPtr<Object> data
+			int m_FileID = 0
+			SInt64 m_PathID = 4976525286860950834
+		[21]
+		PPtr<Object> data
+			int m_FileID = 0
+			SInt64 m_PathID = 5064530509521306666
+		[22]
+		PPtr<Object> data
+			int m_FileID = 0
+			SInt64 m_PathID = 6661515304180725380
+		[23]
+		PPtr<Object> data
+			int m_FileID = 0
+			SInt64 m_PathID = 6802264803670710264
+		[24]
+		PPtr<Object> data
+			int m_FileID = 0
+			SInt64 m_PathID = 8536926476338252978
+		[25]
+		PPtr<Object> data
+			int m_FileID = 0
+			SInt64 m_PathID = 8549010686603368087
+		[26]
+		PPtr<Object> data
+			int m_FileID = 0
+			SInt64 m_PathID = 8839877326701674982
+		[27]
+		PPtr<Object> data
+			int m_FileID = 0
+			SInt64 m_PathID = 9218999471677182749
+		[28]
+		PPtr<Object> data
+			int m_FileID = 1
+			SInt64 m_PathID = -6141875255059783494
+		[29]
+		PPtr<Object> data
+			int m_FileID = 1
+			SInt64 m_PathID = 4112231528449182959
+		[30]
+		PPtr<Object> data
+			int m_FileID = 1
+			SInt64 m_PathID = 4245715802442161425
+map m_Container
+	Array Array
+	int size = 1
+		[0]
+		pair data
+			string first = "assets/assetbundleresources/base/common/cmps/model/item/furniture/rmk_bab_cradle/rmk_bab_cradle.prefab"
+			AssetInfo second
+				int preloadIndex = 0
+				int preloadSize = 31
+				PPtr<Object> asset
+					int m_FileID = 0
+					SInt64 m_PathID = -7743994600645172292
+AssetInfo m_MainAsset
+	int preloadIndex = 0
+	int preloadSize = 0
+	PPtr<Object> asset
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+unsigned int m_RuntimeCompatibility = 1
+string m_AssetBundleName = "upd001/cmps/model/item/furniture/rmk_bab_cradle.unity3d"
+vector m_Dependencies
+	Array Array
+	int size = 1
+		[0]
+		string data = "tut001/cmps/cmpsshaders/cmpsshaders.unity3d"
+bool m_IsStreamedSceneAssetBundle = False
