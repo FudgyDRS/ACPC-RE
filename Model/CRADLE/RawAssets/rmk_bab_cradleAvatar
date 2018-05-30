@@ -1,0 +1,516 @@
+string m_Name = "rmk_bab_cradleAvatar"
+unsigned int m_AvatarSize = 832
+AvatarConstant m_Avatar
+	OffsetPtr m_AvatarSkeleton
+		Skeleton data
+			vector m_Node
+				Array Array
+				int size = 4
+					[0]
+					Node data
+						int m_ParentId = -1
+						int m_AxesId = -1
+					[1]
+					Node data
+						int m_ParentId = 0
+						int m_AxesId = -1
+					[2]
+					Node data
+						int m_ParentId = 1
+						int m_AxesId = -1
+					[3]
+					Node data
+						int m_ParentId = 0
+						int m_AxesId = -1
+			vector m_ID
+				Array Array
+				int size = 4
+					[0]
+					unsigned int data = 0
+					[1]
+					unsigned int data = 1989738304
+					[2]
+					unsigned int data = 1953862585
+					[3]
+					unsigned int data = 41510942
+			vector m_AxesArray
+				Array Array
+				int size = 0
+	OffsetPtr m_AvatarSkeletonPose
+		SkeletonPose data
+			vector m_X
+				Array Array
+				int size = 4
+					[0]
+					xform data
+						float3 t
+							float x = 0
+							float y = 0
+							float z = 0
+						float4 q
+							float x = 0
+							float y = 0
+							float z = 0
+							float w = 1
+						float3 s
+							float x = 1
+							float y = 1
+							float z = 1
+					[1]
+					xform data
+						float3 t
+							float x = 0
+							float y = 0
+							float z = 0
+						float4 q
+							float x = -0.4980212
+							float y = 0.5019709
+							float z = -0.4980212
+							float w = 0.5019709
+						float3 s
+							float x = 1
+							float y = 1
+							float z = 1
+					[2]
+					xform data
+						float3 t
+							float x = 0
+							float y = 0
+							float z = 0
+						float4 q
+							float x = -0.6506961
+							float y = 0.6558567
+							float z = -0.2695271
+							float w = -0.2716647
+						float3 s
+							float x = 1
+							float y = 1
+							float z = 1
+					[3]
+					xform data
+						float3 t
+							float x = 0
+							float y = 0
+							float z = 0
+						float4 q
+							float x = 0
+							float y = 0
+							float z = 0
+							float w = 1
+						float3 s
+							float x = 1
+							float y = 1
+							float z = 1
+	OffsetPtr m_DefaultPose
+		SkeletonPose data
+			vector m_X
+				Array Array
+				int size = 4
+					[0]
+					xform data
+						float3 t
+							float x = 0
+							float y = 0
+							float z = 0
+						float4 q
+							float x = 0
+							float y = 0
+							float z = 0
+							float w = 1
+						float3 s
+							float x = 1
+							float y = 1
+							float z = 1
+					[1]
+					xform data
+						float3 t
+							float x = 0
+							float y = 0
+							float z = 0
+						float4 q
+							float x = -0.4980212
+							float y = 0.5019709
+							float z = -0.4980212
+							float w = 0.5019709
+						float3 s
+							float x = 1
+							float y = 1
+							float z = 1
+					[2]
+					xform data
+						float3 t
+							float x = 0
+							float y = 0
+							float z = 0
+						float4 q
+							float x = -0.6506961
+							float y = 0.6558567
+							float z = -0.2695271
+							float w = -0.2716647
+						float3 s
+							float x = 1
+							float y = 1
+							float z = 1
+					[3]
+					xform data
+						float3 t
+							float x = 0
+							float y = 0
+							float z = 0
+						float4 q
+							float x = 0
+							float y = 0
+							float z = 0
+							float w = 1
+						float3 s
+							float x = 1
+							float y = 1
+							float z = 1
+	vector m_SkeletonNameIDArray
+		Array Array
+		int size = 4
+			[0]
+			unsigned int data = 0
+			[1]
+			unsigned int data = 1989738304
+			[2]
+			unsigned int data = 3692129005
+			[3]
+			unsigned int data = 41510942
+	OffsetPtr m_Human
+		Human data
+			xform m_RootX
+				float3 t
+					float x = 0
+					float y = 0
+					float z = 0
+				float4 q
+					float x = 0
+					float y = 0
+					float z = 0
+					float w = 1
+				float3 s
+					float x = 1
+					float y = 1
+					float z = 1
+			OffsetPtr m_Skeleton
+				Skeleton data
+					vector m_Node
+						Array Array
+						int size = 0
+					vector m_ID
+						Array Array
+						int size = 0
+					vector m_AxesArray
+						Array Array
+						int size = 0
+			OffsetPtr m_SkeletonPose
+				SkeletonPose data
+					vector m_X
+						Array Array
+						int size = 0
+			OffsetPtr m_LeftHand
+				Hand data
+					staticvector m_HandBoneIndex
+						Array Array
+						int size = 15
+							[0]
+							int data = -1
+							[1]
+							int data = -1
+							[2]
+							int data = -1
+							[3]
+							int data = -1
+							[4]
+							int data = -1
+							[5]
+							int data = -1
+							[6]
+							int data = -1
+							[7]
+							int data = -1
+							[8]
+							int data = -1
+							[9]
+							int data = -1
+							[10]
+							int data = -1
+							[11]
+							int data = -1
+							[12]
+							int data = -1
+							[13]
+							int data = -1
+							[14]
+							int data = -1
+			OffsetPtr m_RightHand
+				Hand data
+					staticvector m_HandBoneIndex
+						Array Array
+						int size = 15
+							[0]
+							int data = -1
+							[1]
+							int data = -1
+							[2]
+							int data = -1
+							[3]
+							int data = -1
+							[4]
+							int data = -1
+							[5]
+							int data = -1
+							[6]
+							int data = -1
+							[7]
+							int data = -1
+							[8]
+							int data = -1
+							[9]
+							int data = -1
+							[10]
+							int data = -1
+							[11]
+							int data = -1
+							[12]
+							int data = -1
+							[13]
+							int data = -1
+							[14]
+							int data = -1
+			vector m_Handles
+				Array Array
+				int size = 0
+			vector m_ColliderArray
+				Array Array
+				int size = 0
+			staticvector m_HumanBoneIndex
+				Array Array
+				int size = 25
+					[0]
+					int data = -1
+					[1]
+					int data = -1
+					[2]
+					int data = -1
+					[3]
+					int data = -1
+					[4]
+					int data = -1
+					[5]
+					int data = -1
+					[6]
+					int data = -1
+					[7]
+					int data = -1
+					[8]
+					int data = -1
+					[9]
+					int data = -1
+					[10]
+					int data = -1
+					[11]
+					int data = -1
+					[12]
+					int data = -1
+					[13]
+					int data = -1
+					[14]
+					int data = -1
+					[15]
+					int data = -1
+					[16]
+					int data = -1
+					[17]
+					int data = -1
+					[18]
+					int data = -1
+					[19]
+					int data = -1
+					[20]
+					int data = -1
+					[21]
+					int data = -1
+					[22]
+					int data = -1
+					[23]
+					int data = -1
+					[24]
+					int data = -1
+			staticvector m_HumanBoneMass
+				Array Array
+				int size = 25
+					[0]
+					float data = 0.1454546
+					[1]
+					float data = 0.1212121
+					[2]
+					float data = 0.1212121
+					[3]
+					float data = 0.04848485
+					[4]
+					float data = 0.04848485
+					[5]
+					float data = 0.009696971
+					[6]
+					float data = 0.009696971
+					[7]
+					float data = 0.03030303
+					[8]
+					float data = 0.1454546
+					[9]
+					float data = 0.1454546
+					[10]
+					float data = 0.01212121
+					[11]
+					float data = 0.04848485
+					[12]
+					float data = 0.006060607
+					[13]
+					float data = 0.006060607
+					[14]
+					float data = 0.02424243
+					[15]
+					float data = 0.02424243
+					[16]
+					float data = 0.01818182
+					[17]
+					float data = 0.01818182
+					[18]
+					float data = 0.006060607
+					[19]
+					float data = 0.006060607
+					[20]
+					float data = 0.002424243
+					[21]
+					float data = 0.002424243
+					[22]
+					float data = 0
+					[23]
+					float data = 0
+					[24]
+					float data = 0
+			staticvector m_ColliderIndex
+				Array Array
+				int size = 25
+					[0]
+					int data = -1
+					[1]
+					int data = -1
+					[2]
+					int data = -1
+					[3]
+					int data = -1
+					[4]
+					int data = -1
+					[5]
+					int data = -1
+					[6]
+					int data = -1
+					[7]
+					int data = -1
+					[8]
+					int data = -1
+					[9]
+					int data = -1
+					[10]
+					int data = -1
+					[11]
+					int data = -1
+					[12]
+					int data = -1
+					[13]
+					int data = -1
+					[14]
+					int data = -1
+					[15]
+					int data = -1
+					[16]
+					int data = -1
+					[17]
+					int data = -1
+					[18]
+					int data = -1
+					[19]
+					int data = -1
+					[20]
+					int data = -1
+					[21]
+					int data = -1
+					[22]
+					int data = -1
+					[23]
+					int data = -1
+					[24]
+					int data = -1
+			float m_Scale = 1
+			float m_ArmTwist = 0.5
+			float m_ForeArmTwist = 0.5
+			float m_UpperLegTwist = 0.5
+			float m_LegTwist = 0.5
+			float m_ArmStretch = 0.05
+			float m_LegStretch = 0.05
+			float m_FeetSpacing = 0
+			bool m_HasLeftHand = False
+			bool m_HasRightHand = False
+			bool m_HasTDoF = False
+	vector m_HumanSkeletonIndexArray
+		Array Array
+		int size = 0
+	vector m_HumanSkeletonReverseIndexArray
+		Array Array
+		int size = 0
+	int m_RootMotionBoneIndex = -1
+	xform m_RootMotionBoneX
+		float3 t
+			float x = 0
+			float y = 0
+			float z = 0
+		float4 q
+			float x = 0
+			float y = 0
+			float z = 0
+			float w = 1
+		float3 s
+			float x = 1
+			float y = 1
+			float z = 1
+	OffsetPtr m_RootMotionSkeleton
+		Skeleton data
+			vector m_Node
+				Array Array
+				int size = 0
+			vector m_ID
+				Array Array
+				int size = 0
+			vector m_AxesArray
+				Array Array
+				int size = 0
+	OffsetPtr m_RootMotionSkeletonPose
+		SkeletonPose data
+			vector m_X
+				Array Array
+				int size = 0
+	vector m_RootMotionSkeletonIndexArray
+		Array Array
+		int size = 0
+map m_TOS
+	Array Array
+	int size = 4
+		[0]
+		pair data
+			unsigned int first = 0
+			string second = ""
+		[1]
+		pair data
+			unsigned int first = 41510942
+			string second = "skin"
+		[2]
+		pair data
+			unsigned int first = 1953862585
+			string second = "bs_j/ck_j"
+		[3]
+		pair data
+			unsigned int first = 1989738304
+			string second = "bs_j"
