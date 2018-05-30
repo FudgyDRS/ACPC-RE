@@ -1,0 +1,17 @@
+vector m_Component
+	Array Array
+	int size = 2
+		[0]
+		ComponentPair data
+			PPtr<Component> component
+				int m_FileID = 0
+				SInt64 m_PathID = -2339761848369448296
+		[1]
+		ComponentPair data
+			PPtr<Component> component
+				int m_FileID = 0
+				SInt64 m_PathID = -2499827091387855220
+unsigned int m_Layer = 0
+string m_Name = "rmk_bab_cradle"
+UInt16 m_Tag = 0
+bool m_IsActive = True
