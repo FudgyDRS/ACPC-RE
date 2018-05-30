@@ -1,0 +1,6 @@
+PPtr<GameObject> m_GameObject
+	int m_FileID = 0
+	SInt64 m_PathID = 5064530509521306666
+PPtr<Mesh> m_Mesh
+	int m_FileID = 0
+	SInt64 m_PathID = 9218999471677182749
