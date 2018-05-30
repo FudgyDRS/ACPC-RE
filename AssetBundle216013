@@ -1,0 +1,109 @@
+======================================================================
+AssetBundle #216013
+	0	-8449830673373226111	rmk_bab_cradle_a legs alpha
+	1	-8168304298995685123	rmk_bab_cradle cradle legs
+	2	-7743994600645172292	rmk_bab_cradle
+	3	-6897114210461624205	df_m #216011
+	4	-6239860336234009279	mk_bab_CradleAvatar
+	5	-5505308298804210522	Transform #216005
+	6	-5251840995131158208	skin #216006
+	7	-3668858848893951424	base_00_a #216007
+	8	-3460793221840550924	bs_j #216008
+	9	-2499827091387855220	Animator #216009
+	10	-2339761848369448296	Transform #216010
+	11	-1772512284004949952	m_b #216003
+	12	-84511492304932643	SkinnedMeshRenderer #216012
+	13	977069554772336851	Transform #216014
+	14	1808786836392437459	shadow_base #216018
+	15	2100850829987833353	ck_j #216016
+	16	2391181233898620335	base_00 #216017
+	17	3493006242196714689	sdw_cmn_square #216015
+	18	3521742096117660116	rmk_bab_cradle AnimationContoller
+	19	4840764965528211735	skin #216020
+	20	4976525286860950834	m_sdw_square #216021
+	21	5064530509521306666	sdw_square #216022
+	22	6661515304180725380	rmk_bab_cradle AnimationClip
+	23	6802264803670710264	Transform #216024
+	24	8536926476338252978	Transform #216025
+	25	8549010686603368087	MeshRenderer #216026
+	26	8839877326701674982	MeshFilter #216027
+	27	9218999471677182749	shadow #216028
+	28	-6141875255059783494	_Ramp generic
+	29	4112231528449182959	m_Shader generic?
+	30	4245715802442161425	square shader generic?
+rmk_bab_cradle.prefab	-7743994600645172292	2
+------------------------------------------------------------------------
+rmk_bab_cradle	component	-2339761848369448296	10
+rmk_bab_cradle	component	-2499827091387855220	9
+
+Transform010	m_GameObject	-7743994600645172292	2
+Transform	m_Children	-5505308298804210522	5
+Transform	m_Children	8536926476338252978	24
+Transform	m_Children	6802264803670710264	23
+Transform	m_Father	0	
+
+Animator009	m_GameObject	-7743994600645172292	2
+Animator	m_Avatar	-6239860336234009279	4
+Animator	m_Controller	3521742096117660116	18
+
+mk_bab_cradleAvatar	some data???
+
+rmk_bab_cradle	some data???
+rmk_bab_cradle	m_AnimationClips	6661515304180725380	22
+
+rmk_bab_cradle	some data???
+------------------------------------------------------------------------
+bs_j008	component	-5505308298804210522	5
+
+Transform005	m_GameObject	-3460793221840550924	8
+Transform	m_Children	977069554772336851	13
+Transform	m_Father	-2339761848369448296	10
+------------------------------------------------------------------------
+skin020	component	8536926476338252978	24
+skin	component	-84511492304932643	12
+
+Transform025	m_GameObject	4840764965528211735	19
+Transform	m_Children	0
+Transform	m_Father	-2339761848369448296	10
+
+SkinnedMeshRenderer012	m_GameObject	4840764965528211735	19
+SkinnedMeshRenderer	m_Materials	-6897114210461624205	3
+SkinnedMeshRenderer	m_Materials	-1772512284004949952	11
+SkinnedMeshRenderer	m_Mesh	-5251840995131158208
+SkinnedMeshRenderer	m_Bones	-5505308298804210522	5
+SkinnedMeshRenderer	m_Bones	977069554772336851	13
+
+df_m011	m_Shader	4112231528449182959	29
+df_m	_MainTex	m_Texture	-8168304298995685123	1
+df_m	_MaskTex	m_Texture	-8449830673373226111	0
+df_m	_Ramp	m_Texture	-6141875255059783494	28
+
+m_b003	m_Shader	4112231528449182959	29
+m_b	_MainTex	m_Texture	2391181233898620335	16
+m_b	_MaskTex	m_Texture	-3668858848893951424	7
+m_b	m_Ramp	m_Texture	-6141875255059783494	28
+------------------------------------------------------------------------
+ck_j016	component	977069554772336851	13
+
+Transform014	m_GameObject	2100850829987833353	15
+Transform	m_Children	0
+Transform	m_Father	-5505308298804210522	5
+------------------------------------------------------------------------
+sdw_square022	component	6802264803670710264	23
+sdw_square	component	8839877326701674982	26
+sdw_square	component	8549010686603368087	25
+
+Transform024	m_GameObject	5064530509521306666	21
+Transform	m_Children	0
+Transform	m_Father	-2339761848369448296	10
+
+MeshFilter027	m_GameObject	5064530509521306666	21
+MeshFilter	m_Mesh	9218999471677182749	27
+
+MeshRenderer026	m_GameObject	5064530509521306666	21
+MeshRanderer	m_Materials	4976525286860950834	20
+
+m_sdw_square021	m_Shader	4245715802442161425	30
+m_sdw_square	_MainTex	m_Texture	3493006242196714689	17
+m_sdw_square	_MaskTex	m_Texture	1808786836392437459	14
+------------------------------------------------------------------------
